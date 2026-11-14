@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Temporary files
+*.tmp
+
+# VS Code
+.vscode/
+# Private Gemini credentials
+f97150/workspace/credentials/credentials_for_gemini_service.sql
+f97150/workspace/remote_servers/gemini_service.sql
+f97150/application/shared_components/files/screen_recording_*

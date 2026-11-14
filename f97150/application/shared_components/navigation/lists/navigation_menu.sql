@@ -1,0 +1,205 @@
+prompt --application/shared_components/navigation/lists/navigation_menu
+begin
+--   Manifest
+--     LIST: Navigation Menu
+--   Manifest End
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2026.04.07'
+,p_release=>'26.2.1'
+,p_default_workspace_id=>21264707015744911142
+,p_default_application_id=>97150
+,p_default_id_offset=>21265342332970938723
+,p_default_owner=>'WKSP_MEHAKAII'
+);
+wwv_flow_imp_shared.create_list(
+ p_id=>wwv_flow_imp.id(41031698804070547077)
+,p_name=>'Navigation Menu'
+,p_static_id=>'navigation-menu'
+,p_version_scn=>'SH256:gbeDq9H_H-6N1oDKl_jJxQjk1bFunJWsSYnuVDndjIs'
+,p_created_on=>wwv_flow_imp.dz('20260721060642Z')
+,p_updated_on=>wwv_flow_imp.dz('20260731064135Z')
+,p_created_by=>'MEHAKSHAHZAD2255@GMAIL.COM'
+,p_updated_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(41922241240633124680)
+,p_list_item_display_sequence=>11
+,p_list_item_link_text=>'AI Detailed Report'
+,p_static_id=>'ai-detailed-report'
+,p_list_item_link_target=>'f?p=&APP_ID.:21:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-file-o'
+,p_security_scheme=>wwv_flow_imp.id(21384891211906923862)
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'21'
+,p_created_on=>wwv_flow_imp.dz('20260724094511Z')
+,p_updated_on=>wwv_flow_imp.dz('20260727185435Z')
+,p_created_by=>'MEHAKSHAHZAD2255@GMAIL.COM'
+,p_updated_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(41083730607157340596)
+,p_list_item_display_sequence=>100
+,p_list_item_link_text=>'Answer Survey'
+,p_static_id=>'answer-survey'
+,p_list_item_link_target=>'f?p=&APP_ID.:20:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-file-o'
+,p_security_scheme=>wwv_flow_imp.id(21384896162762926639)
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'20'
+,p_created_on=>wwv_flow_imp.dz('20260721100750Z')
+,p_updated_on=>wwv_flow_imp.dz('20260727185253Z')
+,p_created_by=>'MEHAKSHAHZAD2255@GMAIL.COM'
+,p_updated_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(41072291503129027100)
+,p_list_item_display_sequence=>40
+,p_list_item_link_text=>'category form'
+,p_static_id=>'category-form'
+,p_list_item_link_target=>'f?p=&APP_ID.:10:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-forms'
+,p_security_scheme=>wwv_flow_imp.id(21384891211906923862)
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'10'
+,p_created_on=>wwv_flow_imp.dz('20260721091535Z')
+,p_updated_on=>wwv_flow_imp.dz('20260727185253Z')
+,p_created_by=>'MEHAKSHAHZAD2255@GMAIL.COM'
+,p_updated_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(41030346389528903688)
+,p_list_item_display_sequence=>10
+,p_list_item_link_text=>'dashboard'
+,p_static_id=>'dashboard'
+,p_list_item_link_target=>'f?p=&APP_ID.:2:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-dashboard'
+,p_security_scheme=>wwv_flow_imp.id(21384891211906923862)
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'2'
+,p_created_on=>wwv_flow_imp.dz('20260721060821Z')
+,p_updated_on=>wwv_flow_imp.dz('20260727185253Z')
+,p_created_by=>'MEHAKSHAHZAD2255@GMAIL.COM'
+,p_updated_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(41069823333348951335)
+,p_list_item_display_sequence=>30
+,p_list_item_link_text=>'Employee form'
+,p_static_id=>'employee-form'
+,p_list_item_link_target=>'f?p=&APP_ID.:7:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-forms'
+,p_security_scheme=>wwv_flow_imp.id(21384891211906923862)
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'7'
+,p_created_on=>wwv_flow_imp.dz('20260721090257Z')
+,p_updated_on=>wwv_flow_imp.dz('20260727185253Z')
+,p_created_by=>'MEHAKSHAHZAD2255@GMAIL.COM'
+,p_updated_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(41074707664699105085)
+,p_list_item_display_sequence=>90
+,p_list_item_link_text=>'Employee Survey'
+,p_static_id=>'employee-survey'
+,p_list_item_link_target=>'f?p=&APP_ID.:16:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-file-o'
+,p_security_scheme=>wwv_flow_imp.id(21384896162762926639)
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'16'
+,p_created_on=>wwv_flow_imp.dz('20260721092835Z')
+,p_updated_on=>wwv_flow_imp.dz('20260727185253Z')
+,p_created_by=>'MEHAKSHAHZAD2255@GMAIL.COM'
+,p_updated_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(42241374289729009684)
+,p_list_item_display_sequence=>9
+,p_list_item_link_text=>'Home'
+,p_static_id=>'home-2'
+,p_list_item_link_target=>'f?p=&APP_ID.:3:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-file-o'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'3'
+,p_created_on=>wwv_flow_imp.dz('20260725194348Z')
+,p_updated_on=>wwv_flow_imp.dz('20260727185408Z')
+,p_created_by=>'MEHAKSHAHZAD2255@GMAIL.COM'
+,p_updated_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(21374394462671949093)
+,p_list_item_display_sequence=>130
+,p_list_item_link_text=>'page1'
+,p_static_id=>'page1'
+,p_list_item_link_target=>'f?p=&APP_ID.:1:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-file-o'
+,p_list_item_disp_cond_type=>'NEVER'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'1'
+,p_created_on=>wwv_flow_imp.dz('20260727173902Z')
+,p_updated_on=>wwv_flow_imp.dz('20260727185253Z')
+,p_created_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+,p_updated_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(21519485537873128124)
+,p_list_item_display_sequence=>140
+,p_list_item_link_text=>'Pending Survey Employees'
+,p_static_id=>'pending-survey-employees'
+,p_list_item_link_target=>'f?p=&APP_ID.:4:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-user-clock'
+,p_security_scheme=>wwv_flow_imp.id(21384891211906923862)
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'4'
+,p_created_on=>wwv_flow_imp.dz('20260728090000Z')
+,p_updated_on=>wwv_flow_imp.dz('20260731064023Z')
+,p_created_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+,p_updated_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(41072653581768039821)
+,p_list_item_display_sequence=>60
+,p_list_item_link_text=>'question form'
+,p_static_id=>'question-form'
+,p_list_item_link_target=>'f?p=&APP_ID.:12:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-forms'
+,p_security_scheme=>wwv_flow_imp.id(21384891211906923862)
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'12'
+,p_created_on=>wwv_flow_imp.dz('20260721091742Z')
+,p_updated_on=>wwv_flow_imp.dz('20260727185253Z')
+,p_created_by=>'MEHAKSHAHZAD2255@GMAIL.COM'
+,p_updated_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(41072535029628033254)
+,p_list_item_display_sequence=>50
+,p_list_item_link_text=>'survey form'
+,p_static_id=>'survey-form'
+,p_list_item_link_target=>'f?p=&APP_ID.:11:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-forms'
+,p_security_scheme=>wwv_flow_imp.id(21384891211906923862)
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'11'
+,p_created_on=>wwv_flow_imp.dz('20260721091636Z')
+,p_updated_on=>wwv_flow_imp.dz('20260727185253Z')
+,p_created_by=>'MEHAKSHAHZAD2255@GMAIL.COM'
+,p_updated_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(21727767638527752504)
+,p_list_item_display_sequence=>150
+,p_list_item_link_text=>'Survey Submitted'
+,p_static_id=>'survey-submitted'
+,p_list_item_link_target=>'f?p=&APP_ID.:8:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-file-o'
+,p_security_scheme=>wwv_flow_imp.id(21384896162762926639)
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'8'
+,p_created_on=>wwv_flow_imp.dz('20260729051256Z')
+,p_updated_on=>wwv_flow_imp.dz('20260731064135Z')
+,p_created_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+,p_updated_by=>'MEHAKSHAHZAD405@GMAIL.COM'
+);
+wwv_flow_imp.component_end;
+end;
+/
